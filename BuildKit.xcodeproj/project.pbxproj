@@ -13,6 +13,13 @@
 		A18B00C320CB911700496F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18B00C220CB911700496F14 /* Assets.xcassets */; };
 		A18B00C620CB911700496F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18B00C420CB911700496F14 /* LaunchScreen.storyboard */; };
 		A18B00C920CB911700496F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B00C820CB911700496F14 /* main.m */; };
+		A18B00D320CB95E100496F14 /* UILabel+BuildKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B00D220CB95E100496F14 /* UILabel+BuildKit.m */; };
+		A18B00D620CB95F100496F14 /* UIButton+BuildKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B00D520CB95F100496F14 /* UIButton+BuildKit.m */; };
+		A18B00D920CB95FF00496F14 /* UIView+BuildKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B00D820CB95FF00496F14 /* UIView+BuildKit.m */; };
+		A18B00DC20CB961000496F14 /* UIImageView+BuildKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B00DB20CB961000496F14 /* UIImageView+BuildKit.m */; };
+		A18B00DF20CBA5AC00496F14 /* NSString+BuildKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B00DE20CBA5AC00496F14 /* NSString+BuildKit.m */; };
+		A18B00E220CBB71300496F14 /* UITableView+BuildKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B00E120CBB71300496F14 /* UITableView+BuildKit.m */; };
+		A18B00E520CBB96700496F14 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = A18B00E420CBB96700496F14 /* Cell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,21 @@
 		A18B00C520CB911700496F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A18B00C720CB911700496F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A18B00C820CB911700496F14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A18B00D020CB915F00496F14 /* BuildKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildKitHeader.h; sourceTree = "<group>"; };
+		A18B00D120CB95E100496F14 /* UILabel+BuildKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+BuildKit.h"; sourceTree = "<group>"; };
+		A18B00D220CB95E100496F14 /* UILabel+BuildKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BuildKit.m"; sourceTree = "<group>"; };
+		A18B00D420CB95F100496F14 /* UIButton+BuildKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BuildKit.h"; sourceTree = "<group>"; };
+		A18B00D520CB95F100496F14 /* UIButton+BuildKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BuildKit.m"; sourceTree = "<group>"; };
+		A18B00D720CB95FF00496F14 /* UIView+BuildKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+BuildKit.h"; sourceTree = "<group>"; };
+		A18B00D820CB95FF00496F14 /* UIView+BuildKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+BuildKit.m"; sourceTree = "<group>"; };
+		A18B00DA20CB961000496F14 /* UIImageView+BuildKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BuildKit.h"; sourceTree = "<group>"; };
+		A18B00DB20CB961000496F14 /* UIImageView+BuildKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BuildKit.m"; sourceTree = "<group>"; };
+		A18B00DD20CBA5AC00496F14 /* NSString+BuildKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+BuildKit.h"; sourceTree = "<group>"; };
+		A18B00DE20CBA5AC00496F14 /* NSString+BuildKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+BuildKit.m"; sourceTree = "<group>"; };
+		A18B00E020CBB71300496F14 /* UITableView+BuildKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+BuildKit.h"; sourceTree = "<group>"; };
+		A18B00E120CBB71300496F14 /* UITableView+BuildKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BuildKit.m"; sourceTree = "<group>"; };
+		A18B00E320CBB96700496F14 /* Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		A18B00E420CBB96700496F14 /* Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,8 @@
 				A18B00BA20CB911600496F14 /* AppDelegate.m */,
 				A18B00BC20CB911600496F14 /* ViewController.h */,
 				A18B00BD20CB911600496F14 /* ViewController.m */,
+				A18B00E320CBB96700496F14 /* Cell.h */,
+				A18B00E420CBB96700496F14 /* Cell.m */,
 				A18B00BF20CB911700496F14 /* Main.storyboard */,
 				A18B00C220CB911700496F14 /* Assets.xcassets */,
 				A18B00C420CB911700496F14 /* LaunchScreen.storyboard */,
@@ -75,6 +99,19 @@
 		A18B00CF20CB914700496F14 /* BuildKit */ = {
 			isa = PBXGroup;
 			children = (
+				A18B00D020CB915F00496F14 /* BuildKitHeader.h */,
+				A18B00D120CB95E100496F14 /* UILabel+BuildKit.h */,
+				A18B00D220CB95E100496F14 /* UILabel+BuildKit.m */,
+				A18B00D420CB95F100496F14 /* UIButton+BuildKit.h */,
+				A18B00D520CB95F100496F14 /* UIButton+BuildKit.m */,
+				A18B00D720CB95FF00496F14 /* UIView+BuildKit.h */,
+				A18B00D820CB95FF00496F14 /* UIView+BuildKit.m */,
+				A18B00DA20CB961000496F14 /* UIImageView+BuildKit.h */,
+				A18B00DB20CB961000496F14 /* UIImageView+BuildKit.m */,
+				A18B00DD20CBA5AC00496F14 /* NSString+BuildKit.h */,
+				A18B00DE20CBA5AC00496F14 /* NSString+BuildKit.m */,
+				A18B00E020CBB71300496F14 /* UITableView+BuildKit.h */,
+				A18B00E120CBB71300496F14 /* UITableView+BuildKit.m */,
 			);
 			path = BuildKit;
 			sourceTree = "<group>";
@@ -151,7 +188,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A18B00BE20CB911600496F14 /* ViewController.m in Sources */,
+				A18B00DF20CBA5AC00496F14 /* NSString+BuildKit.m in Sources */,
 				A18B00C920CB911700496F14 /* main.m in Sources */,
+				A18B00E220CBB71300496F14 /* UITableView+BuildKit.m in Sources */,
+				A18B00D620CB95F100496F14 /* UIButton+BuildKit.m in Sources */,
+				A18B00E520CBB96700496F14 /* Cell.m in Sources */,
+				A18B00DC20CB961000496F14 /* UIImageView+BuildKit.m in Sources */,
+				A18B00D320CB95E100496F14 /* UILabel+BuildKit.m in Sources */,
+				A18B00D920CB95FF00496F14 /* UIView+BuildKit.m in Sources */,
 				A18B00BB20CB911600496F14 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.BuildKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.BuildKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,7 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BuildKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.BuildKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjy.BuildKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
